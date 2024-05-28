@@ -26,7 +26,7 @@ function calc() {
     for (var input of quantities) {
         var id = input.id;
         if (input.value > 0) {
-            output.innerHTML += `<li>Prato: ${produtos[id - 1].name} - Preço Unitário: ${formatter.format(produtos[id - 1].price)} - Quantidade: ${input.value} - Valor total: ${formatter.format(input.value * produtos[id - 1].price)}</br>`;
+            output.innerHTML += `<li>Prato: ${produtos[id - 1].name} - Preço Unitário: ${formatter.format(produtos[id - 1].price)} - Quantidade: ${input.value} - Valor total: ${formatter.format(input.value * produtos[id - 1].price)}.</br>`;
             total += produtos[id - 1].price * input.value;
         }
     }
