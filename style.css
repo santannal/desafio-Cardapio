@@ -135,3 +135,53 @@ button:hover {
     box-shadow: 1px 3px 8px 1px rgba(0, 0, 0, 0.35);
     transition: all 0.5s;
 }
+
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .title-menu {
+        font-size: 28px;
+    }
+
+    .title-internal {
+        font-size: 1.25rem;
+    }
+
+    .dados-title {
+        font-size: 18px;
+    }
+
+    .prato-card {
+        width: calc(50% - 40px);
+    }
+
+    input {
+        width: calc(100% - 2rem);
+    }
+
+    button {
+        width: calc(100% - 2rem);
+    }
+}
+
+@media (max-width: 480px) {
+    .title-menu {
+        font-size: 24px;
+    }
+
+    .title-internal {
+        font-size: 1rem;
+    }
+
+    .dados-title {
+        font-size: 16px;
+    }
+
+    .prato-card {
+        width: calc(100% - 40px);
+    }
+
+    .inputs {
+        margin: 5px 1rem;
+    }
+}
