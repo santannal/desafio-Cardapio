@@ -136,6 +136,13 @@ button:hover {
     transition: all 0.5s;
 }
 
+.pedido-text {
+    width: 750px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
 /* -- quantity box -- */
 
 .quantity {
