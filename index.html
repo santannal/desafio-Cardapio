@@ -37,6 +37,12 @@
                     <div class="card-valor">
                         R$ 30,00
                     </div>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="0" id="1" name="quantity" value="0" title="Qty"
+                            class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
                 </div>
                 <div class="prato-card">
                     <img src="imagens/coxa.jpg" alt="Bife" class="img-card">
@@ -46,6 +52,12 @@
                     <div class="card-valor">
                         R$ 25,00
                     </div>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="0" id="2" name="quantity" value="0" title="Qty"
+                            class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
                 </div>
                 <div class="prato-card">
                     <img src="imagens/panela.jpg" alt="Bife" class="img-card">
@@ -54,6 +66,12 @@
                     </div>
                     <div class="card-valor">
                         R$ 22,00
+                    </div>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="0" id="3" name="quantity" value="0" title="Qty"
+                            class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
                     </div>
                 </div>
             </div>
@@ -76,6 +94,12 @@
                     <div class="card-valor">
                         R$ 10,00
                     </div>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="0" id="4" name="quantity" value="0" title="Qty"
+                            class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
                 </div>
                 <div class="prato-card">
                     <img src="imagens/salad.jpg" alt="Bife" class="img-card">
@@ -85,6 +109,12 @@
                     <div class="card-valor">
                         R$ 8,00
                     </div>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="0" id="5" name="quantity" value="0" title="Qty"
+                            class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
+                    </div>
                 </div>
                 <div class="prato-card">
                     <img src="imagens/torresmo.jpg" alt="Bife" class="img-card">
@@ -93,6 +123,12 @@
                     </div>
                     <div class="card-valor">
                         R$ 12,00
+                    </div>
+                    <div class="quantity buttons_added">
+                        <input type="button" value="-" class="minus">
+                        <input type="number" step="1" min="0" id="6" name="quantity" value="0" title="Qty"
+                            class="input-text qty text" size="4" pattern="" inputmode="">
+                        <input type="button" value="+" class="plus">
                     </div>
                 </div>
             </div>
@@ -104,8 +140,8 @@
             </div>
             <div class="inputs">
                 <input type="text" placeholder="Nome Completo">
-                <input type="text" placeholder="Número de Telefone">
-                <input type="text" placeholder="E-mail">
+                <input type="text" placeholder="Número de Telefone" id="phone">
+                <input type="email" placeholder="E-mail">
             </div>
         </div>
 
@@ -118,6 +154,9 @@
         </div>
 
     </div>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
